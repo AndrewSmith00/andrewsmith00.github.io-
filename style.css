@@ -1,0 +1,21 @@
+body {
+    background-color: F2F2F2;
+    font-family: roboto, arial, Georgia, 'Times New Roman', Times, serif;
+}
+
+.main_header {
+
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 5px 5px #E0E0E0;
+}
+
+.enter-button {
+    display: inline-block;
+    background-color: #ffffff;
+    font-family: roboto, arial, sans-serif;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 0.5 rem 0;
+}
