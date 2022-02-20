@@ -12,14 +12,20 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="main_header">
-      <div class="row middle-xs">
-        <img
-          src="img-content/go.svg"
-          alt="Логотип"
-          class="main-logo col-xs-4 col-md-2 col-lg-2"
-        />
+    <header class="main_header row middle-xs around-xs">
+      <div class="col-xs">
+        <img src="img-content/logo.svg" alt="Логотип" class="main-logo"/>
+      </div>
+      <div class="col-xs end-xs">
+        <button class="enter-button" type="button">Войти</button>
+      </div>
+      <div class="col-xs-1  hidden-xs">
+        <a href="#">
+          <img src="img-content/basket.png" alt="Корзина" title="Корзина" />
+        </a>
+      </div>
 
+      <!-- 
         <div class="col-xs">
           <div class="row middle-xs end-xs">
             <button class="enter-button">Войти</button>
@@ -27,9 +33,13 @@
           </div>
         </div>
       </div>
-    </header>
+    --></header>
 
-    <article class="search_form"></article>
+    <article class="search-container row center-xs">
+      <form action="" method="get">
+        <input name="s" placeholder="Поиск по ресторанам и кухням" type="text" class="searchform">
+      </form>
+    </article>
 
     <main></main>
 
