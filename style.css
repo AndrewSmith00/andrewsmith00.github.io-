@@ -1,21 +1,52 @@
 body {
-    background-color: F2F2F2;
-    font-family: roboto, arial, Georgia, 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  font-family: roboto;
+  font-size: 16px;
 }
 
 .main_header {
-
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 5px 5px #E0E0E0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px #e0e0e0;
+  background-color: #ffffff;
 }
 
 .enter-button {
-    display: inline-block;
-    background-color: #ffffff;
-    font-family: roboto, arial, sans-serif;
-    border: 1px solid #E0E0E0;
-    border-radius: 3px;
-    font-size: 1rem;
-    padding: 0.5 rem 0;
+  background: url("img-content/not-active-bg.png");
+
+  border: 1px solid #e0e0e0;
+  border-radius: 6%;
+  padding: 14px 20px 14px 20px;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+    background: url("img-content/active-bg.png");
+}
+
+.main-logo {
+  margin: 0.7em 0 0.7em 0;
+}
+
+.search-container {
+
+
+    margin-top: 100px;
+    display: flex;
+}
+.searchform {
+
+    padding-top: 1em;
+    width: 100vw;
+    font-size: 1.5em;
+    color: #626262;
+    border: none;
+    border-bottom: solid 1px #757575;
 }
